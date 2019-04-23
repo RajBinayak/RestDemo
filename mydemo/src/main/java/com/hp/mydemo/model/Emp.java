@@ -10,7 +10,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 @EntityListeners(AuditingEntityListener.class)
 public class Emp {
 	
-	@Id
+	/*@Id
 	private int id;
 	private String name;
 	private float salary;
@@ -31,7 +31,7 @@ public class Emp {
 	}
 	public void setSalary(float salary) {
 		this.salary = salary;
-	}
+	}*/
 	
 
 }
