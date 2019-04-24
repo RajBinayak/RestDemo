@@ -24,12 +24,12 @@ import com.hp.mydemo.repository.EmpRepository;
 @RequestMapping("/mydemo")
 public class EmpController {
 	
-	@Autowired EmpRepository empRepository;
+	/*@Autowired EmpRepository empRepository;
 	@Autowired EmpRepoCrud empRepoCrud;
 	
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 	@RequestMapping("/")
-	public String index()
+	public String index()*/
 	{
 		
 		logger.debug("This is a debug message");
